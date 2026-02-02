@@ -1,0 +1,54 @@
+.middle-content {
+    margin-top: 80px;
+    margin-left: 80px;
+    padding: 20px;
+    position:relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Video card */
+.video-card {
+    cursor: pointer;
+}
+
+/* Thumbnail */
+.thumbnail {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Video info section */
+.video-info {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+/* Profile picture */
+.pfp {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+/* Text */
+.vid-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 4px 0;
+}
+
+.creator-name,
+.vid-stats {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 12px;
+    color: #606060;
+    margin: 0;
+}

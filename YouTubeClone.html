@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>YouTube Clone Web</title>
+    <link rel="stylesheet" href="CSSFILES/TopBar.css">
+    <link rel="stylesheet" href="CSSFILES/SideBar.css">
+    <link rel="stylesheet" href="CSSFILES/MiddleContent.css">
+    <style>
+        .main-content {
+            margin-top: 60px;
+            margin-left: 220px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div class="top-bar">
+        <!-- left section  -->
+        <div class="topbar-left">
+            <button id="hamburger-menu" style="border: none;">&#9776;</button>
+            <img id="YTPIC" src="IMAGEFILES/youtube-logo.svg" height="20px">
+        </div>
+        <!-- middle section  -->
+        <div class="topbar-middle">
+            <input id="search-box" type="Search" placeholder="Search">
+            <img id="lens" src="IMAGEFILES/search.svg" height="20">
+        </div>
+        <!-- right section  -->
+         <div class="topbar-right">
+            <img id="mircrophone" src="IMAGEFILES/voice-search-icon.svg" height="20">
+            <img id="create-button" src="IMAGEFILES/upload.svg" height="20">
+            <img id="yt-apps" src="IMAGEFILES/youtube-apps.svg" height="20">
+            <img id="notifications-button" src="IMAGEFILES/notifications.svg" height="20">
+            <img id="my-profile" src="IMAGEFILES/my-channel.jpeg" height="20">
+         </div>
+    </div>
+    <!-- side bar -->
+    <div class="side-bar">
+        <div id="side-box">
+            <img src="IMAGEFILES/home.svg" id="side-bar-pics">
+            <p>Home</p>
+        </div>
+        <div id="side-box">
+            <img src="IMAGEFILES/explore.svg" id="side-bar-pics">
+            <p>Explore</p> 
+        </div>
+        <div id="side-box">
+            <img src="IMAGEFILES/subscriptions.svg" id="side-bar-pics">
+            <p>Subscriptions</p>
+        </div>
+        <div id="side-box">
+            <img src="IMAGEFILES/originals.svg" id="side-bar-pics">
+            <p>YouTube Music</p>
+        </div>
+        <div id="side-box">
+            <img src="IMAGEFILES/library.svg" id="side-bar-pics">
+            <p>Library</p>
+        </div>
+    </div>
+
+    <!-- middle body -->
+    <div class="middle-content">
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-1.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-1.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class="creator-name">Marques Brownlee</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-2.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-2.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="creator-name">Markiplier</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-3.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-3.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        Crazy Tik Toks Taken Moments Before DISASTER
+                    </p>
+                    <p class="creator-name">SSSniperWolf</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-4.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-4.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        The Simplest Math Problem No One Can Solve - Collatz
+                    <p class="creator-name">Veritasium</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-5.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-5.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        Kadane's Algorithm to Maximum Sum Subarray Problem
+                    </p>
+                    <p class="creator-name">CS Dojo</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-6.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-6.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        Anything You Can Fit In The Circle I’ll Pay For
+                    </p>
+                    <p class="creator-name">MrBeast</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-7.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-7.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        Why Planes Don't Fly Over Tibet
+                    </p>
+                    <p class="creator-name">RealLifeLore</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=lFm4EM1juls">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-8.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-8.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        Inside The World's Biggest Passenger Plane
+                    </p>
+                    <p class="creator-name">Tech Vision</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-9.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-9.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        The SECRET to Super Human STRENGTH
+                    </p>
+                    <p class="creator-name">ThenX</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-10.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-10.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+                    </p>
+                    <p class="creator-name">Business Insider</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-11.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-11.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+                    </p>
+                    <p class="creator-name">Destination Tips</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+                <img class="thumbnail" src="THUMBNAILS/thumbnail-12.webp">
+            </a>
+
+            <div class="video-info">
+                <img class="pfp" src="PFPIMAGES/channel-12.jpeg">
+
+                <div class="video-text">
+                    <p class="vid-title">
+                        What would happen if you didn’t drink water? - Mia Nacamulli
+                    </p>
+                    <p class="creator-name">TED-Ed</p>
+                    <p class="vid-stats">3.4M views · 6 months ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

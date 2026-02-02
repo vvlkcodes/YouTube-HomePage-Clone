@@ -1,0 +1,78 @@
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    background-color: white;
+    border: grey;
+}
+
+/* LEFT */
+.topbar-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#hamburger-menu,
+#YTPIC {
+    height: 30px;
+    margin: 10px;
+}
+
+#hamburger-menu:hover,
+#YTPIC:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* MIDDLE */
+.topbar-middle {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+#search-box {
+    width: 400px;
+    height: 40px;
+    padding: 4px;
+}
+
+#lens {
+    height: 30px;
+    padding: 4px 10px;
+    border: 1px solid grey;
+    border-left: none;
+}
+
+#lens:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* RIGHT */
+.topbar-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.topbar-right img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.topbar-right img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
